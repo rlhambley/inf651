@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spring Meadows Home Owners Association</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="final2.css" media="screen">
+</head>
+<body>
+
+<div id="wrapper">
+<header>
+<div class="text-center">
+	<img src="./springmeadowsbanner.jpg" class="rounded">
+</div>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="./index.html">Spring Meadows</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href=./index.html>Home</a>
+      <a class="nav-item nav-link" href=./documents.html>Documents</a>
+      <a class="nav-item nav-link" href=./Contact.html>Contact</a>
+      <a class="nav-item nav-link" href=./meeting.html>Meeting Notes</a>
+      <a class="nav-item nav-link active" href=./violations.html>Violation <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href=./links.html>Links</a>
+    </div>
+  </div>
+</nav>
+<hr>
+<main> 
+<div class="w3-light-grey w3-padding w3-margin-bottom" id="violation_form" > 
+<p class="h2">Report an HOA Violation</p>
+      <form action="https://formsubmit.co/rlhambley@mail.fhsu.edu" method="POST">
+          <div class="form-group">
+              <div class="form-row">
+                  <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                     </div>
+                     <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                     </div>
+                 </div>
+              </div>             
+			  <div class="form-group">
+                    <textarea placeholder="Violation Details - Include address and as much detail as possible" class="form-control" name="message" rows="18" required></textarea>
+                </div>
+             <button type="submit" class="btn btn-primary">Submit Form</button>
+      </form>	
+</div>
+<hr>
+</body>
+<footer>
+Copyright &copy; Spring Meadows Home Owners Association
+</footer>
